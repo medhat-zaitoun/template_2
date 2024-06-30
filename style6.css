@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.section1 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: url(./Background.png) center center/cover no-repeat;
+}
+fieldset {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px #9a9a9a solid;
+}
+
+.nav-bar {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.nav-bar h4 {
+    color: #fff;
+    margin-left: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.nav-bar h4 span {
+    color: #e4b95b;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10px;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #dddddd;
+    line-height: 1.6;
+}
+
+nav ul .icon {
+    display: none;
+}
+
+nav ul li a:hover {
+    color: #e4b95b;
+}
+.home-page {
+    position: absolute;
+    left: 7rem;
+    top: 27%;
+    color: #fff;
+    width: 240px;
+    line-height: 1.4;
+}
+
+.section1 .home-page  span {
+    color: #e4b95b;
+    font-size: 20px;
+    display: block;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.home-page h1 {
+    font-size: 40px;
+    padding-bottom: 10px;
+
+}
+
+.home-page p {
+    color: rgb(212, 212, 212);
+    font-size: 10px;
+    padding-bottom: 10px;
+    line-height: 2;
+}
+
+.primary-btn,
+.second-btn,
+.third-btn {
+    padding: 10px 20px;
+    background-color: #e4b95b;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.primary-btn:hover,
+.second-btn:hover,
+.third-btn:hover {
+    cursor: pointer;
+    color: #fff;
+    transform: scale(1.2);
+    background-color: transparent;
+}
+
+/* section 1end */
+
+/* section2 firsthalf start */
+
+.container {
+    padding: auto;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+}
+
+.container .firsthalf {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+}
+
+.element .img-div {
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 20px 20px;
+}
+
+.element img {
+    width: 100px;
+    transition: transform 0.5s;
+}
+
+.element .img-div img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.element .name {
+    color: aliceblue;
+    margin: 1rem 0 0 1rem;
+    margin: 0 40px
+}
+
+.element .name:hover {
+    cursor: pointer;
+    color: #e4b95b;
+}
+
+/* section2 firsthalf end */
+
+/* secondhalf start */
+.container .secondhalf {
+    margin: 30px 0;
+    position: relative;
+    width: 100%;
+}
+
+.secondhalf .imgdiv {
+    width: 30%;
+    padding: 20px;
+    float: left;
+}
+
+.secondhalf .imgdiv img {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.secondhalf .content {
+
+    float: left;
+    position: absolute;
+    left: 45%;
+    margin-top: 7%;
+}
+
+.clr {
+    clear: both;
+}
+
+.secondhalf h3,
+.secondhalf p,
+.secondhalf .second-btn {
+    margin: 10px;
+}
+
+.secondhalf h3 {
+    font-size: 25px;
+    color: #fff;
+}
+
+.secondhalf span {
+    display: block;
+    font-size: 20px;
+    color: yellow;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+.secondhalf p {
+    font-size: 15px;
+    color: #969696;
+    width: 95%;
+    line-height: 1.4;
+}
+
+/* secondhalf end */
+
+/* thirdhalf start */
+.thirdhalf {
+    position: relative;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.thirdhalf .thirdhalf-img {
+    width: 33.3333%;
+    float: left;
+    padding: 20px;
+}
+
+.container .thirdhalf img {
+    border-radius: 15px;
+    opacity: .8;
+    width: 100%;
+}
+
+.clr {
+    clear: both;
+}
+
+.thirdhalf .thirdhalf-img .first-p,
+.thirdhalf .thirdhalf-img .second-p,
+.thirdhalf .thirdhalf-img .third-p {
+    z-index: 3;
+    color: #fff;
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    text-transform: capitalize;
+}
+
+.thirdhalf .thirdhalf-img .second-p {
+    left: 40%;
+}
+
+.thirdhalf .thirdhalf-img .third-p {
+    left: 72%;
+}
+
+.thirdhalf span {
+    display: block;
+    text-transform: lowercase;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.thirdhalf img:hover {
+    opacity: 1;
+}
+
+.thirdhalf div .third-btn {
+    margin-left: 38rem;
+}
+
+.thirdhalf .third-btn {
+    width: 100px;
+    left: 40%;
+    top: 90%;
+    padding: 10px 20px;
+    display: block;
+}
+
+/* thirdhalf end */
+
+/* footer */
+
+footer p {
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    width: 100%;
+    color: #a1a1a1;
+    background-color: #111010;
+}
+
+/* footer end */
+
+/* media query */
+@media screen and (max-width: 600px) {
+    .nav-bar ul li {
+        display: none;
+    }
+
+    nav ul .icon {
+        display: inline;
+    }
+
+    .firsthalf {
+        flex-wrap: wrap;
+    }
+
+    .secondhalf .imgdiv {
+        width: 100%;
+        padding: 50px;
+    }
+
+    .secondhalf .content {
+        margin-top: 120%;
+        left: 0;
+        padding: 20px;
+
+    }
+
+    .secondhalf .content p {
+        width: 90%;
+
+    }
+
+    .thirdhalf {
+        margin-top: 50%;
+    }
+
+    .thirdhalf .thirdhalf-img {
+        width: 100%;
+        padding: 50px;
+    }
+
+    .thirdhalf .thirdhalf-img .first-p {
+        position: absolute;
+        top: 25%;
+        left: 20%;
+    }
+
+    .thirdhalf .thirdhalf-img .second-p {
+        position: absolute;
+        top: 58%;
+        left: 20%;
+    }
+
+    .thirdhalf .thirdhalf-img .third-p {
+        position: absolute;
+        top: 90%;
+        left: 20%;
+    }
+
+    .thirdhalf div .third-btn {
+        margin-left: 40%;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width:992px) {
+    .home-page {
+        top: 25%;
+        left: 10%;
+    }
+    .firsthalf {
+        flex-wrap: wrap;
+    }
+
+
+    .secondhalf .imgdiv {
+        width: 50%;
+    }
+
+    .secondhalf .imgdiv img {
+        width: 100%;
+    }
+
+    .secondhalf .content {
+        width: 50%;
+        left: 50%;
+    }
+
+    .secondhalf .content p {
+        width: 50%;
+    }
+
+    .secondhalf .content button {
+        margin: 10px;
+    }
+    .thirdhalf .thirdhalf-img p{
+        top: 60%;
+    }
+    .thirdhalf div .third-btn {
+        margin-left: 40%;
+    }
+}
